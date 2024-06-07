@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa - Rompope del Ranchito</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nuestros Productos</h1>
+        <div class="product">
+            <img src="../empresa/img/images.jpeg" alt="Producto 1">
+            <img src="../empresa/img/fresaimages.jpeg" alt="Producto 2">
+            <img src="../empresa/img/imageschoco.jpeg" alt="Producto 3">
+            <img src="../empresa/img/pisimages.jpeg" alt="Producto 4">
+            <img src="../empresa/img/tabaimages.jpeg" alt="Producto 5">
+            <img src="../empresa/img/dulceimages.jpeg" alt="Producto 6">
+        </div>
+        <button id="moreInfoBtn">Más Información</button>
+    </div>
+
+    <script>
+        document.getElementById('moreInfoBtn').addEventListener('click', () => {
+            window.location.href = 'informacion.html';
+        });
+    </script>
+</body>
+</html>
+
